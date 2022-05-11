@@ -1,0 +1,8 @@
+
+.rocks {
+    position: relative;
+    background: url("assets/images/rocks.jpg");
+    height: 600px;
+    display: flex;
+
+}
