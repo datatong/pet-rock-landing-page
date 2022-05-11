@@ -1,8 +1,38 @@
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
 .rocks {
     position: relative;
-    background: url("assets/images/rocks.jpg");
+    background: url("assets/images/rocks.jpg") no-repeat center/cover;
     height: 600px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.rocks p {
+    
+}
+
+.rocks p {
+    
 }
