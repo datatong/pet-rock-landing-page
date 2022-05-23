@@ -3,6 +3,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 ul {
@@ -30,9 +36,10 @@ ul li {
 }
 
 .rocks p {
-    
+    font-size: 32px;
+    text-shadow: 2px 2px 2px black;
 }
 
-.rocks p {
-    
+.rocks a {
+    font-size: 32px;
 }
