@@ -1,4 +1,8 @@
 
+body {
+    background-color: whitesmoke;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -35,10 +39,22 @@ ul li {
     list-style-type: none;
 }
 
+a:visited {
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
 .rocks {
     position: relative;
     background: url("assets/images/rocks.jpg") no-repeat center/cover;
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,8 +83,12 @@ ul li {
 .gallery-slide {
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 450px;
     overflow: visible;
+}
+
+.gallery-slide > img {
+
 }
 
 #prevBtn {
